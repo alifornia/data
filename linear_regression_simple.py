@@ -49,9 +49,8 @@ def main():
     b_gd = linear_regression_gd(x,y)
     b_scikit = linear_regression_scikit(x,y)
 
-    print(b_exact)
-    print(b_gd)
-    print(b_scikit)
+    print(b_exact, b_gd, b_scikit)
+    
     plots(x,y,b_exact)
     plots(x,y,b_gd)
     plots(x,y,b_scikit) #match the exact ~100%

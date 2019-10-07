@@ -1,6 +1,6 @@
-#### things I need when I deal with data:
+#### Things I need when I deal with data:
 
-[slides][https://github.com/alifornia/data/blob/master/Data_Science.pptx]
+[https://github.com/alifornia/data/blob/master/Data_Science.pptx]
 
 ![Image description](https://github.com/alifornia/data/blob/master/ml_map.png)
 

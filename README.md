@@ -19,7 +19,7 @@ The summary as of now:
 
 #### Can HTTP POST be limitless?
 
-[From here](https://stackoverflow.com/a/55998160/5199427) Quite amazing how all answers talk about IIS, as if that were the only web server that mattered. Even back in 2010 when the question was asked, Apache had between [60%](https://news.netcraft.com/archives/2010/12/01/december-2010-web-server-survey.html) and [70% of the market share](https://w3techs.com/technologies/history_overview/web_server/ms/y). Anyway,
+[From here](https://stackoverflow.com/a/55998160/5199427)
 
 * The HTTP protocol does not specify a limit.
 * The POST method allows sending far more data than the GET method, which is limited by the [URL length](https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers) - about 2KB.

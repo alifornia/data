@@ -10,7 +10,7 @@ def plots(x, y, b):
 
 #liner regression using exact minimum square root error
 def linear_regression_exact(x, y):
-    n = float(len(x))
+    n = np.float64(len(x))
     x_mean = np.mean(x)
     y_mean = np.mean(y)
 
@@ -23,7 +23,7 @@ def linear_regression_exact(x, y):
 
 #liner regression using gradient descent
 def linear_regression_gd(x, y, b0=0, b1=0, iterations=1000, learning_rate=0.0001): 
-    n = float(len(x))
+    n = np.float64(len(x))
     for i in range(iterations):
         y_current = b0 + b1*x
         b0_gradient = -(2/n) * sum(y - y_current)
